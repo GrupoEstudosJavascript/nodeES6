@@ -1,15 +1,17 @@
-Para começar o projeto node com es6 devemos ter as seguintes bibliotecas
+### Para começar o projeto node com es6 devemos ter as seguintes bibliotecas
 
-Desenvolvimento
+#### Desenvolvimento
 
 - babel-cli, babel-preset-env, babel-polyfill, babel-plugin-transform-runtime, babel-watch eslint
 
-Produção
+#### Produção
 
 - express, cors, compression, morgan, mongoose, body-parser, helmet
 
 Primeiro começar configurando o .babelrc
+
 dados:
+
 {
 "presets": ["env"],
 "plugins": [["transform-runtime", { "polifill": false, "regenerator": true }]]
